@@ -1,0 +1,33 @@
+{
+	"name": "geocoder.js",
+	"version": "1.0.0",
+	"description": "Fast offline coarse Geocoder",
+	"main": "./lib/index.js",
+	"bin": {
+		"geocoder.js": "build.js"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/alixaxel/geocoder.js.git"
+	},
+	"keywords": [
+		"geo",
+		"geocoder",
+		"geonames"
+	],
+	"author": "Alix Axel (https://github.com/alixaxel/)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/alixaxel/geocoder.js/issues"
+	},
+	"homepage": "https://github.com/alixaxel/geocoder.js",
+	"dependencies": {
+		"async": "^1.2.1",
+		"dblite": "^0.7.6",
+		"line-reader": "^0.2.4",
+		"lodash": "^3.9.3"
+	}
+}
