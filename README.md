@@ -28,6 +28,11 @@ geocoder('Big Apple', function (location) {
 
 ```shell
 npm install geocoder.js
+```
+
+## Build Database
+
+```shell
 wget -q http://download.geonames.org/export/dump/countryInfo.txt -O ./node_modules/geocoder.js/data/geonames/countryInfo.txt && \
 wget -q http://download.geonames.org/export/dump/cities1000.zip -O ./node_modules/geocoder.js/data/geonames/cities1000.zip && \
 wget -q http://download.geonames.org/export/dump/alternateNames.zip -O ./node_modules/geocoder.js/data/geonames/alternateNames.zip && \
